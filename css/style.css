@@ -1,0 +1,441 @@
+
+body {
+    background: #F1E9DE; /* fallback color */
+    background: linear-gradient( to bottom, #F1E9DE, #628f1e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+
+
+/*
+==========================================
+typography
+==========================================
+*/
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 48px;
+ 
+
+}
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 42px;
+}
+h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 34px;
+}
+h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 26px;
+}
+p {
+    font-family: 'Domine', serif;
+    font-size: 18px;
+
+}
+
+
+
+/*
+==========================================
+header
+==========================================
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    align-content: center;
+    
+    
+
+
+}
+
+.nav-primary {
+    display: flex;
+    align-content: center;
+}
+
+.nav-primary ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.nav-primary ul li {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    padding: 5px 18px;
+    gap: 10px;
+    height: 30px;
+
+
+    /* colors/green/dark */
+
+    background: #265902;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-primary ul li:hover {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    padding: 5px 18px;
+    gap: 10px;
+
+    background: #558C03;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-primary ul li a {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 26 px;
+    color: white;
+    font-weight: normal;
+    font-size: 26px;;
+    text-decoration: none;
+}
+
+
+/*
+==========================================
+hero
+==========================================
+*/
+
+.hero {
+    display: flex;
+
+    flex-direction: row;
+
+
+ 
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 15%;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.hero-content-text {
+    display: flex;
+    max-width: 40%;
+    justify-content: center;
+    padding-right: 20px;
+    width: 50%;
+    text-align: start;
+    margin: 0;
+
+
+}
+
+.hero-content-visual {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: right;
+    margin: 0 0;
+
+}
+
+
+
+
+
+.bio {
+    display: flex;
+    justify-content: center;
+    margin: 4% 20%;
+    text-align: center;
+}
+
+
+/*
+==========================================
+Competencies
+==========================================
+*/
+
+.headers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2% 0%;
+  
+
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    background-color: #265902;
+    padding-bottom: 15px;
+}
+
+.tools-skills-code {
+    padding: 10px 5%;
+   
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.skills-list {
+    padding: 0;
+}
+
+.skills-list li {
+
+    list-style: none;
+
+}
+
+.white-text {
+    color: white;
+    margin-block-start: 10px;
+    text-align: center;
+}
+
+/*
+==========================================
+my work
+==========================================
+*/
+
+
+
+.card-left {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+.card-left:hover{
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+} 
+
+.card-right {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+.card-right:hover{
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+} 
+
+.card-left img {
+    
+}
+
+.work-item {
+    margin: 0 2% 20px 20%;
+
+}
+
+.work-item-right {
+    margin: 0 20% 20px 2%;
+
+}
+
+.work-item-left {
+    margin: 0 20% 20px 2%;
+
+}
+
+.card-text {
+    padding: 15px
+
+}
+
+/*
+==========================================
+footer
+==========================================
+*/
+
+
+.footer {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 0px 20px 0px;
+justify-content: center;
+background-color: white;
+margin-top: 100px
+
+}
+
+.footer-left {
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: flex-start;
+text-decoration: none;
+
+}
+
+.footer-left p {
+    text-decoration: none;
+}
+
+.footer-center {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0% 25%;
+
+}
+
+
+.footer-right {
+justify-content: flex-end;
+
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.footer-divider {
+    width: 2px;
+    height: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+
+
+/*
+==========================================
+media query mobile
+==========================================
+*/
+
+@media only screen and (max-width: 600px){
+    
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .header-logo img {
+        width: 75px;
+        height: auto;
+        
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .nav-primary ul li {
+        flex-direction: column;
+        margin: 15 px 0px;
+        display: none;
+
+    }
+
+
+
+    .hero-content {
+        flex-direction: column-reverse;
+       
+    }
+    
+    .hero-content-visual {
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .hero-content-text {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .card-left {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-item {
+        margin: 20px 20px;
+    }
+
+    .work-item-right {
+        margin: 20px 20px;
+    }
+
+
+    
+    .footer {
+        flex-direction: column;
+        padding: 30px 0 0 0;
+    }
+
+} 
