@@ -5,13 +5,14 @@ console.log("Your index.js file is loaded correctly!");
 const sectionOneOptions = document.querySelectorAll('fade-in');
 
 const appearOptions = {
-    threshold: 0
+    threshold: 1
+    
    
 }
 
 const faders = document.querySelectorAll("fade-in")
 
-const sliders = document.querySelectorAll("work-item-left work-item-right")
+const sliders = document.querySelectorAll("sliders")
 
 const appearOnScroll = new IntersectionObserver(function(
     entries,
@@ -33,6 +34,6 @@ faders.forEach(faders => {
     appearOnScroll.observe(faders);
 })
 
-sliders.forEach(slider => {
+sliders.forEach(sliders => {
     appearOnScroll.observe(sliders)
 })

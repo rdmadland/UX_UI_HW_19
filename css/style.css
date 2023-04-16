@@ -277,27 +277,30 @@ my work
 }
 
 .work-item {
-    margin: 0 2% 20px 20%;
+    margin: 0 10% 20px 20%;
+
     
 
 }
 
 .work-item-right {
-    margin: 0 20% 20px 2%;
-    transform: translateX(-50%)
+    margin: 0 20% 20px 10%;
+
+
 
 }
 
-.work-item-left {
-    margin: 0 20% 20px 2%;
-    transform: translateX(-50%)
 
+
+.work-item .work-item-left {
+  
 }
 
-.work-item-right .work-item-left {
+
+.sliders {
+    transform:translateX(-50%)
     transition: transform 300ms ease-in;
 }
-
 
 .card-text {
     padding: 15px
