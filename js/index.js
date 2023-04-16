@@ -6,8 +6,12 @@ const sectionOneOptions = document.querySelectorAll('fade-in');
 
 const appearOptions = {
     threshold: 0
-    rootMargin: "0px 0px -200px 0px"
+   
 }
+
+const faders = document.querySelectorAll("fade-in")
+
+const sliders = document.querySelectorAll("work-item-left work-item-right")
 
 const appearOnScroll = new IntersectionObserver(function(
     entries,
@@ -22,10 +26,13 @@ const appearOnScroll = new IntersectionObserver(function(
             appearOnScroll.unobserve(entry.target);
         }
     })
-}
-appearOptions);
+appearOptions});
 
 
-faders.forEach(fader => {
-    appearOnScroll.observe(fader);
+faders.forEach(faders => {
+    appearOnScroll.observe(faders);
+})
+
+sliders.forEach(slider => {
+    appearOnScroll.observe(sliders)
 })
