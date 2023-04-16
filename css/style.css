@@ -250,7 +250,7 @@ my work
     background-color: white;
     padding: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+    margin: 0 10% 20px 20%;
     
 }
 
@@ -264,6 +264,7 @@ my work
     background-color: white;
     padding: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 20% 20px 10%;
 
     
 }
@@ -277,20 +278,30 @@ my work
 }
 
 .work-item {
-    margin: 0 10% 20px 20%;
 
+    overflow: hidden;
+    min-height: 400px;
+    border: 1px solid gray;
     
 
 }
 
-.work-item-right {
-    margin: 0 20% 20px 10%;
-
+.work-item div{
+position: relative;
 
 
 }
 
+.work-item-right {
+    overflow: hidden;
+    min-height: 400px;
+    border: 1px solid gray;
 
+}
+
+.work-item-right div{
+    position: relative;
+}
 
 .work-item .work-item-left {
   
@@ -298,8 +309,8 @@ my work
 
 
 .sliders {
-    transform:translateX(-50%)
-    transition: transform 300ms ease-in;
+
+    
 }
 
 .card-text {
