@@ -1,4 +1,5 @@
-$('.work-item').hover(
+
+$('.work-item-right').hover(
     function() {
         $(this).find('div').animate({
             right: '0%'
@@ -10,7 +11,8 @@ $('.work-item').hover(
     }
 );
 
-$('.work-item-right').hover(
+
+$('.work-item').hover(
     function() {
         $(this).find('div').animate({
             right: '0%'
