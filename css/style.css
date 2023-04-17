@@ -1,7 +1,7 @@
 
 body {
     background: #F1E9DE; /* fallback color */
-    background: linear-gradient( to bottom, #F1E9DE, #628f1e);
+    background: linear-gradient( to bottom, #64C1FF, #64FF82);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -80,18 +80,16 @@ header {
     flex-direction: row;
     align-items: center;
     margin-left: 15px;
-    padding: 5px 18px;
+    padding: 8px 20px;
     gap: 10px;
     height: 30px;
 
 
-    /* colors/green/dark */
+    
 
-    background: #265902;
+    background: #181F96;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -104,10 +102,10 @@ header {
     flex-direction: row;
     align-items: center;
     margin-left: 15px;
-    padding: 5px 18px;
+    padding: 8px 20px;
     gap: 10px;
 
-    background: #558C03;
+    background: #355EE8;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 
@@ -203,7 +201,7 @@ Competencies
 .categories {
     display: flex;
     justify-content: center;
-    background-color: #265902;
+    background-color: #181F96;
     padding-bottom: 15px;
 }
 
@@ -248,10 +246,10 @@ my work
     display: flex;
     flex-direction: row;
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 10% 20px 20%;
-    
+    border-radius: 20px;
 }
 
 .card-left:hover{
@@ -262,10 +260,10 @@ my work
     display: flex;
     flex-direction: row-reverse;
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 20% 20px 10%;
-
+    border-radius: 20px;
     
 }
 
@@ -281,7 +279,7 @@ my work
 
     overflow: hidden;
     min-height: 400px;
-    border: 1px solid gray;
+   
     
 
 }
@@ -289,13 +287,13 @@ my work
 .work-item div{
 position: relative;
 
-
 }
+
 
 .work-item-right {
     overflow: hidden;
     min-height: 400px;
-    border: 1px solid gray;
+
 
 }
 
@@ -303,15 +301,14 @@ position: relative;
     position: relative;
 }
 
-.work-item .work-item-left {
-  
+.work-item-right img{
+    padding-left: 20px;
 }
 
-
-.sliders {
-
-    
+.work-item img {
+    padding-right: 20px
 }
+
 
 .card-text {
     padding: 15px
