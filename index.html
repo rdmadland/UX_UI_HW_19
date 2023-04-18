@@ -18,9 +18,9 @@
 
     <body>
         <header class="header">
-           <div class="header-logo" href"">
+           <a class="header-logo" href="">
                 <img src="images/logo3.png" alt="logo" width="160px" height="100px">
-           </div>
+           </a>
             <!--nav/link-->
             <nav class="nav-primary">
                 <ul>
@@ -96,7 +96,7 @@
 
         <section class="work">
             <div class="work-item">
-                <div class="card-left fade-in sliders">
+                <div class="card-left" data-emergence="hidden">
                     <a href=""></a>
                     <div>
                         <img src="images/mycompass-logo.jpg" alt="mycompass" width="280" height="280">
@@ -112,7 +112,7 @@
             </div>
 
             <div class="work-item-right">
-                <div class="card-right fade-in sliders">
+                <div class="card-right" data-emergence="hidden">
                     <a href=""></a>
                     <div>
                         <img src="images/toolbelt-logo.jpg" alt="toolbelt" width="280" height="280">
@@ -128,7 +128,7 @@
             </div>
 
             <div class="work-item">
-                <div class="card-left fade-in sliders">
+                <div class="card-left" data-emergence="hidden">
                     <a href=""></a>
                     <div>
                         <img src="images/saras-logo.jpg" alt="saras" width="280" height="280">
@@ -166,6 +166,10 @@
         </section>
 
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emergence.js/1.1.2/emergence.min.js"></script>
+    <script>
+        emergence.init();
+      </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/index.js"></script>
 
