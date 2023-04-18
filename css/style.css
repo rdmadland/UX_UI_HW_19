@@ -265,8 +265,13 @@ my work
     transform: translateX(0%);
 }
 
+
+
+
+
 .card-right[data-emergence]{
     transition: all 2s ease;
+    
 }
 
 .card-right[data-emergence="hidden"] {
@@ -469,11 +474,15 @@ media query mobile
     .card-left {
         flex-direction: column;
         align-items: center;
+        margin: 0 5% 20px 5%;
+        padding-right: 0;
     }
 
     .card-right {
         flex-direction: column;
         align-items: center;
+        margin: 0 5% 20px 5%;
+        padding-left: 0;
     }
 
     .work-item {
